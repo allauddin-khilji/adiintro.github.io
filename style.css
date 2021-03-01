@@ -1,0 +1,177 @@
+.nav{
+    padding:3%;
+    background-color: deepskyblue;
+    font-size: 30px;
+    width:auto;
+    text-align: center;
+  line-height:70px;
+  font-family: sans-serif;
+  border-bottom: 3px #f0f8ff solid;
+  
+}
+.link1 { position:fixed;
+top:0px;
+left:0px;
+width:230px; }
+
+.link2 { position:fixed;
+top:0px;
+left:230px;
+width:300px; }
+
+.link3 { position:fixed;
+top:0px;
+left:530px;
+width:230px; }
+
+.link4 { position:fixed;
+top:0px;
+left:760px;
+width:230px; }
+
+.link5 { position:fixed;
+top:0px;
+left:990px;
+width:230px}
+
+.link6 { position:fixed;
+top:0px;
+left:1220px;
+width:300px}
+
+
+
+
+
+
+
+li {
+display:inline;}
+
+.nav a {
+
+  margin-right:-10px;
+  color: #d5ffaf;
+  text-align: center;
+ padding:10px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  background-color:black;}
+  
+  .nav a:hover{
+    color:white;
+    background-color:rgba(150,150,150,1);
+}
+
+.header{
+text-align:center;
+  font-size:30px;
+  color:white;
+  background: linear-gradient(to bottom right,#759ad1 0%,#5884c7 100%);
+    box-shadow: 0 2px 5px rgb(0 0 0 / 26%);
+    border-bottom: 3px #f0f8ff solid;
+  padding:20px;
+  width:auto;  
+}
+.biobox {
+  margin-top: 10px;
+    width: 90%;
+    height: 400px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #084B8A;
+    border-radius: 10px;
+    color: white;
+}
+
+.bio-details{
+  border: 2px solid #ddd;
+  padding: 8px;
+}
+
+.myTable { 
+   width:70%;
+   text-align: center;
+  background-color: lemonchiffon;
+  border-collapse: collapse; 
+  margin-top:0.2%;
+  }
+.myTable th { 
+  background-color: #084B8A;
+  color: white;
+  }
+.myTable td, 
+.myTable th { 
+  padding: 10px;
+  border: 1px solid goldenrod;
+  font-family: sans-serif;
+    font-weight:600;
+  }
+.education{
+ margin-top: 10px;
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #084B8A;
+    border-radius: 10px;
+    color: white;
+}
+.hobbies {
+  margin-top: 10px;
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #084B8A;
+    border-radius: 10px;
+    color: white;
+}
+.work{
+ margin-top: 10px;
+    width: 90%;
+    height: 200px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #084B8A;
+    border-radius: 10px;
+    color: white;
+}
+
+.contact {
+  margin-top: 10px;
+    width: 90%;
+    height: 250px;
+    margin-left: 5%;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #084B8A;
+    border-radius: 10px;
+    color: white;
+}
+.fa {
+  padding: 10px;
+  width: 30px;
+  text-align: center;
+text-decoration:none;
+  
+  
+}
+.fa-facebook {
+  background: #55ACEE;
+  color: white;
+}
+.fa-instagram {
+  background: #55ACEE;
+  color: white;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .nav,.nav a, .header, .biobox,.bio-details,.myTable,.myTable th,.myTable td {
+    width: 100%;
+  }
+}
